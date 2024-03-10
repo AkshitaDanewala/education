@@ -6,7 +6,7 @@ import { LiaDollarSignSolid } from "react-icons/lia";
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, RadialBarChart, RadialBar}from 'recharts';
 import { MdDelete } from "react-icons/md";
 import { MdModeEdit } from "react-icons/md";
-
+import DashboardLeft from './DashboardLeft';
 const Dashboard = () => {
 
 
@@ -166,17 +166,17 @@ const Dashboard = () => {
 
 <div className='maindiv  h-screen w-full flex'>
    
-<div className="leftdiv h-full w-[20vw] bg-green-200"></div>
+{/* <div className="leftdiv h-full w-[20vw] bg-green-200"></div> */}
+<DashboardLeft/>
 
 
 
 <div className="rightdiv h-full w-[80vw]">
 
-<nav className='h-[11vh] w-full bg-red-700'></nav>
 
-<div className="dashboard h-[89vh] w-full bg-white">
+<div className="dashboard h-[89vh] w-full bg-slate-100 mt-14">
 
-<div className="boxesdiv h-[40vh] w-full bg-slate-100 flex items-center justify-between px-7 py-7">
+<div className="boxesdiv  w-full  flex items-center justify-between px-7 py-7  bg-[rgb(243,243,243)]">
 
 <div className="totalStudents  flex h-[34vh] w-[17vw] bg-[rgb(106,115,250)] rounded-lg">
 
@@ -277,7 +277,7 @@ const Dashboard = () => {
 </div>
 
 
-<div className="graphdiv w-full flex items-center justify-between  px-7 py-7 bg-slate-100">
+<div className="graphdiv  w-full flex items-center justify-between  px-7 py-7 bg-[rgb(243,243,243)]">
 
 <div className="barchart h-[85vh] w-[36vw] bg-white rounded-lg">
 
@@ -372,7 +372,7 @@ const Dashboard = () => {
 
 
 
-<div className="listdiv w-full h-full bg-slate-100  px-7 py-7">
+<div className="listdiv w-full  bg-[rgb(243,243,243)]  px-7 py-7">
 
 <div className="listname h-[10vh] w-full  flex items-center justify-start bg-white rounded-lg ">
 <h1 className='text-[1.4vmax] ml-8 font-semibold'>New Student List</h1>
