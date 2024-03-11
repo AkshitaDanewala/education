@@ -170,12 +170,12 @@ const Dashboard = () => {
 
 
 
-<div className="rightdiv h-full w-[80vw]">
+<div className="rightdiv h-full w-[80vw] max-sm:w-full">
 
 
 <div className="dashboard h-[89vh] w-full bg-slate-100 mt-14">
 
-<div className="boxesdiv  w-full  grid grid-flow-col px-7 py-6  bg-[rgb(243,243,243)] max-sm:grid  max-sm:grid-rows-2 max-sm:gap-y-3 max-sm:gap-x-3 max-sm:px-3 max-sm:py-7">
+<div className="boxesdiv  w-full  grid grid-flow-col px-7 py-6  bg-[rgb(243,243,243)] max-sm:grid  max-sm:grid-rows-2 max-sm:gap-y-3 max-sm:gap-x-5 max-sm:px-10 max-sm:py-7">
 
 <div className="totalStudents  flex h-[32vh] w-[17vw] bg-[rgb(106,115,250)] rounded-lg max-sm:h-[19vh] max-sm:w-[35vw] ">
 
@@ -362,29 +362,29 @@ const Dashboard = () => {
 
 
 
-<div className="listdiv w-full  bg-[rgb(243,243,243)]  px-7 py-7 max-sm:px-0 bg-red-200">
+<div className="listdiv w-full  bg-[rgb(243,243,243)]  px-7 py-7 max-sm:px-0  max-sm:px-2">
 
-<div className="listname h-[10vh] max-sm:h-[5vh] w-full  flex items-center justify-start bg-white rounded-lg ">
+<div className="listname h-[10vh] max-sm:h-[5vh] w-full  flex items-center justify-start bg-white rounded-lg">
 <h1 className='text-[1.4vmax] ml-8 font-semibold'>New Student List</h1>
 </div>
 <hr />
 
-<table border="1" className='h-[60vh] w-full max-sm:w-0  bg-white mt-4 rounded-lg'>
+<table border="1" className='h-[60vh] w-full  bg-white mt-3 rounded-lg max-sm:w-full'>
   <thead>
     <tr>
-      <th className='font-semibold'>No.</th>
-      <th className='font-semibold'>Name</th>
-      <th className='font-semibold'>Assigned Professor</th>
-      <th className='font-semibold'>Date Of Admit</th>
-      <th className='font-semibold'>Status</th>
-      <th className='font-semibold'>Subject</th>
-      <th className='font-semibold'>Fees</th>
-      <th className='font-semibold'>Edit</th>
+      <th className='font-semibold max-sm:text-[1.4vmax] '>No.</th>
+      <th className='font-semibold max-sm:text-[1.4vmax]'>Name</th>
+      <th className='font-semibold max-sm:text-[1.4vmax]'>Assigned Professor</th>
+      <th className='font-semibold max-sm:text-[1.4vmax]'>Date Of Admit</th>
+      <th className='font-semibold max-sm:text-[1.4vmax]'>Status</th>
+      <th className='font-semibold max-sm:text-[1.4vmax]'>Subject</th>
+      <th className='font-semibold max-sm:text-[1.4vmax]'>Fees</th>
+      <th className='font-semibold max-sm:text-[1.4vmax]'>Edit</th>
 
     </tr>
   </thead>
   <tbody>
-    <tr className='text-center text-slate-600 text-[1.1vmax] font-semibold'>
+    <tr className='text-center text-slate-600  text-[1.1vmax] font-semibold max-sm:text-[1.4vmax] '>
       <td>01</td>
       <td>Jack Ronan</td>
       <td>Airi Satou</td>
@@ -393,14 +393,14 @@ const Dashboard = () => {
       <td>	Commerce</td>
       <td>120$</td>
       <td>
-        <div className="btndiv h-[5vh] w-[4vw]  flex items-center justify-center ml-14 gap-1  ">
-<MdDelete className='bg-[rgb(106,115,250)] rounded-sm h-[4vh] w-[2vw] text-white' /> <MdModeEdit className='bg-[rgb(255,22,22)] rounded-sm h-[4vh] w-[2vw] text-white' />
+        <div className="btndiv h-[4vh] w-[4vw] max-sm:w-[6vw] max-sm:h-[3vh]  flex items-center justify-center ml-16 gap-1 max-sm:ml-2 max-sm:gap-0   ">
+<MdDelete className='text-[1.4vmax] max-sm:text-[4vmax] text-black'/> <MdModeEdit className='text-[1.4vmax] max-sm:text-[4vmax] text-black' />
         </div>
       </td>
       
     </tr>
 
-    <tr className='text-center text-slate-600 text-[1.1vmax] font-semibold'>
+    <tr className='text-center text-slate-600  text-[1.1vmax] font-semibold max-sm:text-[1.4vmax] '>
     <td>02</td>
       <td>Jimmy Morris</td>
       <td>Angelica Ramos</td>
@@ -409,14 +409,14 @@ const Dashboard = () => {
       <td>Mechanical</td>
       <td>205$</td>
       <td>
-      <div className="btndiv h-[5vh] w-[4vw]  flex items-center justify-center ml-14 gap-1">
-<MdDelete className='bg-[rgb(106,115,250)] rounded-sm h-[4vh] w-[2vw] text-white' />  <MdModeEdit className='bg-[rgb(255,22,22)] rounded-sm h-[4vh] w-[2vw] text-white' />
+      <div className="btndiv h-[4vh] w-[4vw]  flex items-center justify-center ml-16 gap-1  max-sm:w-[6vw] max-sm:h-[3vh]  max-sm:ml-2 max-sm:gap-0">
+<MdDelete className='text-[1.4vmax] max-sm:text-[4vmax] text-black' />  <MdModeEdit className='text-[1.4vmax] max-sm:text-[4vmax] text-black' />
         </div>
       </td>
 
     </tr>
 
-    <tr className='text-center text-slate-600 text-[1.1vmax] font-semibold'>
+    <tr className='text-center text-slate-600   text-[1.1vmax] font-semibold max-sm:text-[1.4vmax]'>
     <td>03</td>
       <td>Nashid Martines</td>
       <td>Ashton Cox</td>
@@ -425,14 +425,14 @@ const Dashboard = () => {
       <td>Science</td>
       <td>180$</td>
       <td>
-      <div className="btndiv h-[5vh] w-[4vw]  flex items-center justify-center ml-14 gap-1">
-<MdDelete className='bg-[rgb(106,115,250)] rounded-sm h-[4vh] w-[2vw] text-white' /> <MdModeEdit className='bg-[rgb(255,22,22)] rounded-sm h-[4vh] w-[2vw] text-white' />
+      <div className="btndiv h-[4vh] w-[4vw]  flex items-center justify-center ml-16 gap-1 max-sm:w-[6vw] max-sm:h-[3vh]  max-sm:ml-2 max-sm:gap-0">
+<MdDelete className='text-[1.4vmax] max-sm:text-[4vmax] text-black' /> <MdModeEdit className='text-[1.4vmax] max-sm:text-[4vmax] text-black'  />
         </div>
       </td>
 
     </tr>
 
-    <tr className='text-center text-slate-600 text-[1.1vmax] font-semibold'>
+    <tr className='text-center text-slate-600   text-[1.1vmax] font-semibold max-sm:text-[1.4vmax]'>
     <td>04</td>
       <td>Roman Aurora</td>
       <td>Cara Stevens</td>
@@ -441,14 +441,14 @@ const Dashboard = () => {
       <td>Arts</td>
       <td>200$</td>
       <td>
-      <div className="btndiv h-[5vh] w-[4vw]  flex items-center justify-center ml-14 gap-1">
-<MdDelete className='bg-[rgb(106,115,250)] rounded-sm h-[4vh] w-[2vw] text-white' /> <MdModeEdit className='bg-[rgb(255,22,22)] rounded-sm h-[4vh] w-[2vw] text-white' />
+      <div className="btndiv h-[4vh] w-[4vw]  flex items-center justify-center ml-16 gap-1 max-sm:w-[6vw] max-sm:h-[3vh]  max-sm:ml-2 max-sm:gap-0">
+<MdDelete className='text-[1.4vmax] max-sm:text-[4vmax] text-black' /> <MdModeEdit className='text-[1.4vmax] max-sm:text-[4vmax] text-black' />
         </div>
       </td>
 
     </tr>
 
-    <tr className='text-center text-slate-600 text-[1.1vmax] font-semibold'>
+    <tr className='text-center text-slate-600   text-[1.1vmax] font-semibold max-sm:text-[1.4vmax]'>
     <td>05</td>
       <td>Samantha</td>
       <td>	Bruno Nash</td>
@@ -457,8 +457,8 @@ const Dashboard = () => {
       <td>Maths</td>
       <td>210$</td>
       <td>
-      <div className="btndiv h-[5vh] w-[5vw]  flex items-center justify-center ml-14 gap-1  ">
-<MdDelete className='bg-[rgb(106,115,250)]  rounded-sm text-white h-[4vh] w-[2vw] '  /> <MdModeEdit className='bg-[rgb(255,22,22)] rounded-sm h-[4vh] w-[2vw] text-white' />
+      <div className="btndiv h-[4vh] w-[5vw]  flex items-center justify-center ml-14 gap-1 max-sm:w-[6vw] max-sm:h-[3vh]  max-sm:ml-2 max-sm:gap-0 ">
+<MdDelete className='text-[1.4vmax] max-sm:text-[4vmax] text-black'  /> <MdModeEdit className='text-[1.4vmax] max-sm:text-[4vmax] text-black'  />
         </div>
       </td>
 
