@@ -166,7 +166,6 @@ const Dashboard = () => {
 
 <div className='maindiv  h-screen w-full flex'>
    
-{/* <div className="leftdiv h-full w-[20vw] bg-green-200"></div> */}
 <DashboardLeft/>
 
 
@@ -176,24 +175,24 @@ const Dashboard = () => {
 
 <div className="dashboard h-[89vh] w-full bg-slate-100 mt-14">
 
-<div className="boxesdiv  w-full  flex items-center justify-between px-7 py-7  bg-[rgb(243,243,243)]">
+<div className="boxesdiv  w-full  grid grid-flow-col px-7 py-6  bg-[rgb(243,243,243)] max-sm:grid  max-sm:grid-rows-2 max-sm:gap-y-3 max-sm:gap-x-3 max-sm:px-3 max-sm:py-7">
 
-<div className="totalStudents  flex h-[34vh] w-[17vw] bg-[rgb(106,115,250)] rounded-lg">
+<div className="totalStudents  flex h-[32vh] w-[17vw] bg-[rgb(106,115,250)] rounded-lg max-sm:h-[19vh] max-sm:w-[35vw] ">
 
 <div className="circlediv h-full w-[40%] flex items-center justify-center ">
 
-    <div className="circle h-[11vh] w-[5vw] rounded-full bg-white flex items-center justify-center">
+    <div className="circle h-[11vh] w-[5vw] rounded-full bg-white flex items-center justify-center max-sm:h-[4vh] max-sm:w-[6vw]">
     <LiaUsersSolid  className='text-[2.1vmax]'/>
     </div>
 </div>
 
-<div className="contentdiv h-full w-[60%] text-white py-7 px-2">
+<div className="contentdiv h-full w-[60%] text-white py-7 px-2 max-sm:py-4">
 
-<h2 className='text-[1.1vmax] font-semibold'>TOTAL <br /> STUDENTS</h2>
+<h2 className='text-[1.1vmax] font-semibold max-sm:font-bold'>TOTAL  STUDENTS</h2>
 <h3 className='text-[1.7vmax] font-bold mt-1'>3180</h3>
-<div className="barline h-[1.1vh] w-[8vw] bg-slate-400 rounded-full mt-2">
+<div className="barline h-[1.1vh] w-[8vw] max-sm:h-[0.7vh] max-sm:w-[9vw] bg-slate-400 rounded-full mt-2">
 <div className="filldiv  h-full w-[6vw] bg-white rounded-full"></div>
-<h6 className='text-[1vmax] mt-2 font-semibold'> 80% increase in <br />20 Days</h6>
+<h6 className='text-[1vmax] mt-2 font-semibold max-sm:text-[1.2vmax]'> 80% increase in <br />20 Days</h6>
 
 </div>
 </div>
@@ -202,22 +201,22 @@ const Dashboard = () => {
 </div>
 
 
-<div className="newstudents flex h-[34vh] w-[17vw] bg-[rgb(255,170,22)] rounded-lg">
+<div className="newstudents flex h-[32vh] w-[17vw] bg-[rgb(255,170,22)] rounded-lg max-sm:h-[19vh] max-sm:w-[35vw]">
 
 <div className="circlediv h-full w-[40%] flex items-center justify-center ">
 
-    <div className="circle h-[11vh] w-[5vw] rounded-full bg-white flex items-center justify-center">
+    <div className="circle h-[11vh] w-[5vw] rounded-full bg-white flex items-center justify-center max-sm:h-[4vh] max-sm:w-[6vw]">
     <LuUser2 className='text-[2.1vmax] ' />
     </div>
 </div>
 
-<div className="contentdiv h-full w-[60%] text-white py-7 px-2">
+<div className="contentdiv h-full w-[60%] text-white py-7 px-2 max-sm:py-4">
 
-<h2 className='text-[1.1vmax] font-semibold'>NEW <br /> STUDENTS</h2>
+<h2 className='text-[1.1vmax] font-semibold max-sm:font-bold'>NEW STUDENTS</h2>
 <h3 className='text-[1.7vmax] font-bold mt-1'>360</h3>
-<div className="barline h-[1.1vh] w-[8vw] bg-slate-400 rounded-full mt-2">
+<div className="barline h-[1.1vh] w-[8vw] bg-slate-400 rounded-full mt-2 max-sm:h-[0.7vh] max-sm:w-[9vw]">
 <div className="filldiv  h-full w-[4vw] bg-white rounded-full"></div>
-<h6 className='text-[1vmax] mt-2 font-semibold'> 50% increase in <br />20 Days</h6>
+<h6 className='text-[1vmax] mt-2 font-semibold max-sm:text-[1.2vmax]'> 50% increase in <br />20 Days</h6>
 
 </div>
 </div>
@@ -226,23 +225,23 @@ const Dashboard = () => {
 </div>
 
 
-<div className="totalcourse  flex h-[34vh] w-[17vw] bg-[rgb(103,59,183)] rounded-lg">
+<div className="totalcourse  flex h-[32vh] w-[17vw] bg-[rgb(103,59,183)] rounded-lg max-sm:h-[19vh] max-sm:w-[35vw]">
 
 <div className="circlediv h-full w-[40%] flex items-center justify-center ">
 
-    <div className="circle h-[11vh] w-[5vw] rounded-full bg-white flex items-center justify-center">
+    <div className="circle h-[11vh] w-[5vw] rounded-full bg-white flex items-center justify-center  max-sm:h-[4vh] max-sm:w-[6vw]">
     <PiGraduationCapLight className='text-[2.1vmax] ' />
     </div>
 </div>
 
 
-<div className="contentdiv h-full w-[60%] text-white py-7 px-2">
+<div className="contentdiv h-full w-[60%] text-white py-7 px-2 max-sm:py-4">
 
-<h2 className='text-[1.1vmax] font-semibold'>TOTAL <br /> COURSE</h2>
+<h2 className='text-[1.1vmax] font-semibold max-sm:font-bold'>TOTAL  COURSE</h2>
 <h3 className='text-[1.7vmax] font-bold mt-1'>28</h3>
-<div className="barline h-[1.1vh] w-[8vw] bg-slate-400 rounded-full mt-2">
+<div className="barline h-[1.1vh] w-[8vw] bg-slate-400 rounded-full mt-2 max-sm:h-[0.7vh] max-sm:w-[9vw]">
 <div className="filldiv  h-full w-[5vw] bg-white rounded-full"></div>
-<h6 className='text-[1vmax] mt-2 font-semibold'> 60% increase in <br />20 Days</h6>
+<h6 className='text-[1vmax] mt-2 font-semibold max-sm:text-[1.2vmax]'> 60% increase in <br />20 Days</h6>
 
 </div>
 </div>
@@ -250,22 +249,22 @@ const Dashboard = () => {
 </div>
 
 
-<div className="feescollection flex h-[34vh] w-[17vw] bg-[rgb(255,22,22)] rounded-lg">
+<div className="feescollection flex h-[32vh] w-[17vw] bg-[rgb(255,22,22)] rounded-lg max-sm:h-[19vh] max-sm:w-[35vw]">
 
 <div className="circlediv h-full w-[40%] flex items-center justify-center ">
 
-    <div className="circle h-[11vh] w-[5vw] rounded-full bg-white flex items-center justify-center">
+    <div className="circle h-[11vh] w-[5vw] rounded-full bg-white flex items-center justify-center max-sm:h-[4vh] max-sm:w-[6vw]">
     <LiaDollarSignSolid className='text-[2.1vmax] ' />
     </div>
 </div>
 
-<div className="contentdiv  h-full w-[60%] text-white py-7 px-2">
+<div className="contentdiv  h-full w-[60%] text-white py-7 px-2 max-sm:py-4">
 
-<h2 className='text-[1.1vmax] font-semibold'>FEES <br /> COLLECTION</h2>
+<h2 className='text-[1.1vmax] font-semibold max-sm:font-bold'>FEES  COLLECTION</h2>
 <h3 className='text-[1.7vmax] font-bold mt-1'>1290$</h3>
-<div className="barline h-[1.1vh] w-[8vw] bg-slate-400 rounded-full mt-2">
+<div className="barline h-[1.1vh] w-[8vw] bg-slate-400 rounded-full mt-2 max-sm:h-[0.7vh] max-sm:w-[9vw]">
 <div className="filldiv  h-full w-[3vw] bg-white rounded-full"></div>
-<h6 className='text-[1vmax] mt-2 font-semibold'> 35% increase in <br />20 Days</h6>
+<h6 className='text-[1vmax] mt-2 font-semibold max-sm:text-[1.2vmax]'> 35% increase in <br />20 Days</h6>
 
 </div>
 </div>
@@ -277,17 +276,17 @@ const Dashboard = () => {
 </div>
 
 
-<div className="graphdiv  w-full flex items-center justify-between  px-7 py-7 bg-[rgb(243,243,243)]">
+<div className="graphdiv  w-full flex items-center justify-between  px-7 py-7 bg-[rgb(243,243,243)] max-sm:flex-col max-sm:gap-y-5">
 
-<div className="barchart h-[85vh] w-[36vw] bg-white rounded-lg">
+<div className="barchart h-[85vh] max-sm:h-[60vh] w-[36vw] max-sm:w-[70vw] bg-white rounded-lg max-sm:-ml-0">
 
 <div className="universityname h-[10vh] w-full  flex items-center justify-start">
-<h1 className='text-[1.4vmax] ml-8 font-semibold'>University Survey</h1>
+<h1 className='text-[1.4vmax] ml-8 font-semibold max-sm:text-[2vmax] max-sm:font-bold'>University Survey</h1>
 </div>
 <hr />
 
  
-  <div className="chart  h-[70vh] w-[36vw] mt-4 ">
+  <div className="chart  h-[70vh] max-sm:h-[45vh] w-[36vw] max-sm:w-[67vw] mt-4 ">
   <ResponsiveContainer width="100%" height="100%">
             <BarChart
             width={500}
@@ -316,15 +315,15 @@ const Dashboard = () => {
 </div>
 
 
-<div className="DonughtChart h-[85vh] w-[17vw] bg-white rounded-lg">
+<div className="DonughtChart h-[85vh] max-sm:h-[55vh] w-[17vw] max-sm:w-[70vw] bg-white rounded-lg">
 
 <div className="universitybar h-[10vh] w-full  flex items-center justify-start">
-<h1 className='text-[1.4vmax] ml-8 font-semibold'>Donught Chart</h1>
+<h1 className='text-[1.4vmax] ml-8 font-semibold max-sm:text-[2vmax] max-sm:font-bold'>Donught Chart</h1>
 </div>
 <hr />
 
 
-<PieChart width={215} height={250}>
+<PieChart width={215} height={250} className='max-sm:ml-4'>
   <Pie data={data01} dataKey="value" cx="50%" cy="50%" outerRadius={80} fill="rgb(19,103,200)" />
 </PieChart>
  
@@ -332,10 +331,10 @@ const Dashboard = () => {
 </div>
 
 
-<div className="universitychart h-[85vh] w-[17vw] bg-white rounded-lg">
+<div className="universitychart h-[85vh] max-sm:h-[55vh] max-sm:w-[70vw] w-[17vw] bg-white rounded-lg">
 
 <div className="universitybar h-[10vh] w-full  flex items-center justify-start">
-<h1 className='text-[1.4vmax] ml-8 font-semibold'>University Survey</h1>
+<h1 className='text-[1.4vmax] ml-8 font-semibold max-sm:text-[2vmax] max-sm:font-bold'>University Survey</h1>
 </div>
 <hr />
 
@@ -347,8 +346,9 @@ const Dashboard = () => {
   data={data02} 
   startAngle={180} 
   endAngle={0}
+  
 >
-  <RadialBar minAngle={15} label={{ fill: '#666', position: 'insideStart' }} background clockWise={true} dataKey='uv' />
+  <RadialBar minAngle={15} label={{ fill: '#666', position: 'insideStart' }} background clockWise={true} dataKey='uv'/>
   {/* <Legend iconSize={10} width={120} height={140} layout='vertical' verticalAlign='middle' align="right" /> */}
   <Tooltip />
 </RadialBarChart>
@@ -358,28 +358,18 @@ const Dashboard = () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
 </div>
 
 
 
-<div className="listdiv w-full  bg-[rgb(243,243,243)]  px-7 py-7">
+<div className="listdiv w-full  bg-[rgb(243,243,243)]  px-7 py-7 max-sm:px-0 bg-red-200">
 
-<div className="listname h-[10vh] w-full  flex items-center justify-start bg-white rounded-lg ">
+<div className="listname h-[10vh] max-sm:h-[5vh] w-full  flex items-center justify-start bg-white rounded-lg ">
 <h1 className='text-[1.4vmax] ml-8 font-semibold'>New Student List</h1>
 </div>
 <hr />
 
-<table border="1" className='h-[60vh] w-full bg-white mt-4 rounded-lg'>
+<table border="1" className='h-[60vh] w-full max-sm:w-0  bg-white mt-4 rounded-lg'>
   <thead>
     <tr>
       <th className='font-semibold'>No.</th>
