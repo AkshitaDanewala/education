@@ -362,7 +362,7 @@ const Dashboard = () => {
 
 
 
-<div className="listdiv w-full  bg-[rgb(243,243,243)]  px-7 py-7 max-sm:px-0  max-sm:px-2">
+<div className="listdiv w-full  bg-[rgb(243,243,243)]  px-7 py-7   max-sm:px-2">
 
 <div className="listname h-[10vh] max-sm:h-[5vh] w-full  flex items-center justify-start bg-white rounded-lg">
 <h1 className='text-[1.4vmax] ml-8 font-semibold'>New Student List</h1>
