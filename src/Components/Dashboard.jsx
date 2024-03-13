@@ -170,7 +170,7 @@ const Dashboard = () => {
 
 
 
-<div className="rightdiv h-full w-[80vw] max-sm:w-full">
+<div className="rightdiv h-full w-[80vw] max-sm:w-full ">
 
 
 <div className="dashboard h-[89vh] w-full bg-slate-100 mt-14">
