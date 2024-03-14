@@ -64,10 +64,10 @@ Maroon Tie, Lab Coat.</h1>
 </div>
 
 
-<div className="fees h-[105vh] w-[40vw] bg-red-200  rounded-lg px-2 py-4">
+<div className="fees h-[105vh] w-[40vw]   rounded-lg px-2 py-4">
 <h1 className='underline decoration-solid  font-poppins font-bold text-[1.8vmax] '>Fees structure for each course :</h1>
 
-<div className="feesdiv mt-5 bg-yellow-200">
+<div className="feesdiv mt-5 ">
 
 <div className='w-full flex items-center justify-evenly  py-3 '>
     <h1 className='text-[1.7vmax] font-semibold'>Admission - 20,000</h1>
@@ -75,52 +75,31 @@ Maroon Tie, Lab Coat.</h1>
 </div>
 
 
-{/* <div className="semesters h-[52vh] bg-blue-200 mt-3 w-full flex flex-col justify-between shadow shadow-slate-100 px-3 py-5 ">
-    <div className="1semester h-[8vh] w-full bg-white rounded-lg flex items-center justify-around">
-<h1 className='text-[1.6vmax] font-semibold'>1st semester</h1>
-<h1 className='text-[1.6vmax] font-semibold'>5000</h1>
-    </div>
+<table className='w-full border-collapse'>
+  <tr>
+    <th className='p-[10px] text-center border-b-2 border-solid border-black '>1st semester</th>
+    <td className='p-[10px] text-center border-b-2 border-solid border-black '>5000</td>
+  </tr>
 
-    <div className="2semester h-[8vh] w-full bg-white rounded-lg flex items-center justify-around">
-    <h1 className='text-[1.6vmax] font-semibold' >2nd semester</h1>
-<h1 className='text-[1.6vmax] font-semibold'>5000</h1>
-    </div>
+  <tr>
+    <th className='p-[10px] text-center border-b-2 border-solid border-black '>2nd semester</th>
+    <td className='p-[10px] text-center border-b-2 border-solid border-black '>5000</td>
+  </tr>
 
-    <div className="3semester h-[8vh] w-full bg-white rounded-lg flex items-center justify-around">
-    <h1 className='text-[1.6vmax] font-semibold'>3rd semester</h1>
-<h1 className='text-[1.6vmax] font-semibold'>5000</h1>
-    </div>
+  <tr>
+    <th className='p-[10px] text-center border-b-2 border-solid border-black '>3rd semester</th>
+    <td className='p-[10px] text-center border-b-2 border-solid border-black '>5000</td>
+  </tr>
 
-    <div className="4semester 3semester h-[8vh] w-full bg-white rounded-lg flex items-center justify-around">
-    <h1 className='text-[1.6vmax] font-semibold'>4th semester</h1>
-<h1 className='text-[1.6vmax] font-semibold'>5000</h1>
-    </div>
-
-</div> */}
-
-<div class="table-container table w-[100%] ">
-    <div class="table-row">
-        <div class="table-cell semester bg-white rounded-lg p-[10px] text-center w-[70%]  ">1st semester</div>
-        <div class="table-cell amount bg-white rounded-lg p-[10px] text-center w-[30%]">5000</div>
-    </div>
-    <div class="table-row">
-        <div class="table-cell semester bg-white rounded-lg p-[10px] text-center w-[70%]">2nd semester</div>
-        <div class="table-cell amount bg-white rounded-lg p-[10px] text-center w-[30%]">5000</div>
-    </div>
-    <div class="table-row">
-        <div class="table-cell semester bg-white rounded-lg p-[10px] text-center w-[70%]">3rd semester</div>
-        <div class="table-cell amount bg-white rounded-lg p-[10px] text-center w-[30%]">5000</div>
-    </div>
-    <div class="table-row">
-        <div class="table-cell semester bg-white rounded-lg p-[10px] text-center w-[70%]">4th semester</div>
-        <div class="table-cell amount bg-white rounded-lg p-[10px] text-center w-[30%]">5000</div>
-    </div>
-</div>
+  <tr>
+    <th className='p-[10px] text-center border-b-2 border-solid border-black '>4th semester</th>
+    <td className='p-[10px] text-center border-b-2 border-solid border-black '>5000</td>
+  </tr>
+</table>
 
 
 
-
-<div className='h-[10vh] w-full text-white mt-3 flex flex-col items-end'>
+<div className='h-[10vh] w-full  mt-3 flex flex-col items-end'>
 
     <h1 className='text-[1.2vmax] font-poppins'>Monthly fees for each semester - 2000.</h1>
     <h1 className='text-[1.2vmax] font-poppins'>Total fees for every included course - 98,000</h1>
@@ -130,6 +109,8 @@ Maroon Tie, Lab Coat.</h1>
 
    <h1 className='font-bold font-poppins'>*(Students will be provided uniforms and books from the institution free of any charge. )</h1>
 </div>
+
+<p className='mt-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas ut, perferendis ducimus incidunt, nihil illo quia a nam iste quisquam necessitatibus nesciunt ad impedit enim praesentium? Laudantium alias numquam ducimus!</p>
 
 
 

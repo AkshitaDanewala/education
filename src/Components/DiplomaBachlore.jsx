@@ -38,7 +38,7 @@ const DiplomaBachlore = () => {
     
     </div>
     
-    <div className="coursesdiv h-[90vh] max-sm:h-[100vh] w-full bg-[rgb(3,95,172)] flex items-center justify-center px-7 py-5 relative">
+    <div className="coursesdiv h-[90vh] max-sm:h-[100vh] w-full bg-[rgb(240,251,255)] flex items-center justify-center px-7 py-5 relative">
     
     
     <div className="boxesdiv   h-[69vh]  max-sm:h-[60vh] w-[81vw] px-4 max-sm:w-full">
@@ -49,7 +49,7 @@ const DiplomaBachlore = () => {
       <div  className="firstbox  h-[61vh] max-sm:h-[51vh] w-[24vw] max-sm:w-[75vw] bg-white overflow-hidden rounded-lg ml-3 max-sm:ml-0 ">
     
     <div className="imgbox h-[33vh] max-sm:ml-0  w-full   overflow-hidden rounded-lg ">
-      <img src="https://themewagon.github.io/elearning/img/course-2.jpg" alt="" className='h-[100%] w-[100%] object-cover  transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
+      <img src="https://www.mngacademy.in/21219/uploads/course/mngacademy-120623022041.jpg" alt="" className='h-[100%] w-[100%] object-cover object-top transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
     </div>
     
     <div className="infodiv h-[27vh] w-full max-sm:w-[75vw]  px-5 py-3">
@@ -78,7 +78,7 @@ const DiplomaBachlore = () => {
     <div className="secondbox h-[61vh] max-sm:h-[51vh] w-[24vw] max-sm:w-[73vw] bg-white  overflow-hidden rounded-lg max-sm:ml-0.5   ">
     
     <div className="imgbox h-[33vh] w-full max-sm:ml-0  overflow-hidden ">
-      <img src="https://themewagon.github.io/elearning/img/course-2.jpg" alt="" className='h-[100%] w-[100%] object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
+      <img src="https://img.freepik.com/free-vector/radiologist-concept-doctor-examing-xray-image-human-body-with-computed-tomography-mri-ultrasound-idea-health-care-disease-diagnosis-isolated-vector-illustration-cartoon-style_613284-1935.jpg" alt="" className='h-[100%] w-[100%] object-cover object-top transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
     </div>
     
     <div className="infodiv h-[27vh] max-sm:w-[75vw] w-full  px-5 py-3">
@@ -108,7 +108,7 @@ const DiplomaBachlore = () => {
     <div className="thirdbox h-[61vh]  w-[24vw] max-sm:h-[51vh] max-sm:w-[73vw] bg-white  overflow-hidden rounded-lg ml-2 max-sm:ml-0.5">
     
     <div className="imgbox h-[33vh] w-full max-sm:ml-0  overflow-hidden ">
-      <img src="https://themewagon.github.io/elearning/img/course-2.jpg" alt="" className='h-[100%] w-[100%] object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
+      <img src="https://i.pinimg.com/736x/8b/4f/de/8b4fde1bd8803bf6831df4550c402759.jpg" alt="" className='h-[100%] w-[100%] object-top object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
     </div>
     
     <div className="infodiv h-[27vh] max-sm:w-[75vw] w-full  px-5 py-3">
@@ -136,7 +136,7 @@ const DiplomaBachlore = () => {
     <div className="fourthbox h-[61vh] w-[24vw] max-sm:h-[51vh] max-sm:w-[73vw] bg-white  overflow-hidden rounded-lg ml-3 max-sm:ml-0.5  ">
     
     <div className="imgbox h-[33vh] w-full max-sm:ml-0  overflow-hidden ">
-      <img src="https://themewagon.github.io/elearning/img/course-2.jpg" alt="" className='h-[100%] w-[100%] object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
+      <img src="https://img.freepik.com/premium-vector/woman-hairdressing-courses-vector-concept_118813-16056.jpg?size=626&ext=jpg&ga=GA1.1.1803636316.1701475200&semt=sph" alt="" className='h-[100%] w-[100%] object-top object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
     </div>
     
     <div className="infodiv h-[27vh] w-full max-sm:w-[75vw]   px-5 py-3">
@@ -166,7 +166,7 @@ const DiplomaBachlore = () => {
     <div className="fifthbox h-[61vh] w-[24vw] max-sm:h-[51vh] max-sm:w-[73vw] bg-white  overflow-hidden rounded-lg ml-2 max-sm:ml-0.5 ">
     
     <div className="imgbox h-[33vh] w-full max-sm:ml-0  overflow-hidden ">
-      <img src="https://themewagon.github.io/elearning/img/course-2.jpg" alt="" className='h-[100%] w-[100%] object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
+      <img src="https://static.vecteezy.com/system/resources/thumbnails/007/192/085/small/two-scientists-working-isolated-on-a-white-background-vector.jpg" alt="" className='h-[100%] w-[100%] object-top object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
     </div>
     
     <div className="infodiv h-[27vh] max-sm:w-[75vw]  w-full  px-5 py-3">
@@ -195,7 +195,7 @@ const DiplomaBachlore = () => {
     <div className="sixthbox h-[61vh] w-[24vw] max-sm:h-[51vh] max-sm:w-[73vw] bg-white  overflow-hidden rounded-lg ml-3 max-sm:ml-0.5">
     
     <div className="imgbox h-[33vh] w-full max-sm:ml-0  overflow-hidden ">
-      <img src="https://themewagon.github.io/elearning/img/course-2.jpg" alt="" className='h-[100%] w-[100%] object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
+      <img src="https://i.pinimg.com/736x/27/8a/77/278a77b286d994a716548db041311dd3.jpg" alt="" className='h-[100%] w-[100%] object-top object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
     </div>
     
     <div className="infodiv h-[27vh] max-sm:w-[75vw] w-full  px-5 py-3">
@@ -225,7 +225,7 @@ const DiplomaBachlore = () => {
     <div className="seventhbox h-[61vh] w-[24vw] max-sm:h-[51vh] max-sm:w-[73vw] bg-white  overflow-hidden rounded-lg ml-2 max-sm:ml-0.5">
     
     <div className="imgbox h-[33vh] w-full max-sm:ml-0    overflow-hidden ">
-      <img src="https://themewagon.github.io/elearning/img/course-2.jpg" alt="" className='h-[100%] w-[100%] object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
+      <img src="https://img.freepik.com/free-vector/doctor-nurse-giving-medical-care-patient-bed-isolated-flat-illustration_74855-10593.jpg" alt="" className='h-[100%] w-[100%] object-top object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
     </div>
     
     <div className="infodiv h-[27vh] max-sm:w-[75vw] w-full  px-5 py-3">
@@ -253,7 +253,7 @@ const DiplomaBachlore = () => {
     <div className="eightbox h-[61vh] w-[24vw] max-sm:h-[51vh] max-sm:w-[73vw] bg-white  overflow-hidden rounded-lg ml-2 max-sm:ml-0.5">
     
     <div className="imgbox h-[33vh] w-full max-sm:ml-0    overflow-hidden ">
-      <img src="https://themewagon.github.io/elearning/img/course-2.jpg" alt="" className='h-[100%] w-[100%] object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
+      <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-occupational-therapy-illustration_52683-84242.jpg" alt="" className='h-[100%] w-[100%] object-top object-cover transition-all ease-linear duration-150 hover:scale-110 hover:transition-all hover:ease-linear hover:duration-150 cursor-pointer'/>
     </div>
     
     <div className="infodiv h-[27vh] max-sm:w-[75vw] w-full  px-5 py-3">
@@ -285,7 +285,7 @@ const DiplomaBachlore = () => {
     
     </div>
     
-    <Link to="/coursesCategory" className='absolute top-[6%] left-[3%] text-[2vmax] text-white'><FaRegArrowAltCircleLeft /></Link>
+    <Link to="/coursesCategory" className='absolute top-[6%] left-[3%] text-[2vmax] '><FaRegArrowAltCircleLeft /></Link>
    
     
     

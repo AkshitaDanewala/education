@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const CoursesCategory = () => {
   return (
     <>
-    <div className='maindiv bg-green-200 w-full h-screen pt-16'>
+    <div className='maindiv bg-[rgb(240,251,255)] w-full h-[127vh] pt-16'>
 
 
 <div className="headingdiv py-3 w-full bg-white">
@@ -12,7 +12,7 @@ const CoursesCategory = () => {
 <h1 className='text-[2vmax] font-bold font-poppins flex items-center justify-center'>Courses Categories</h1>
 </div>
 
-<div className="coursesdiv w-full h-[100vh] mt-3 bg-slate-400 flex justify-evenly py-5 px-5">
+<div className="coursesdiv w-full h-[100vh] mt-3  flex justify-evenly py-5 px-5">
 
 <div className="coursesdivleft h-[90vh] w-[55%] ">
    <div className="topdiv h-[44vh] w-full  overflow-hidden relative">
